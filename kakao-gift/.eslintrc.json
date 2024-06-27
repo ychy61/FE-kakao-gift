@@ -36,7 +36,13 @@
     "import/prefer-default-export": "off",
     "no-console": "warn",
     "no-unused-vars": "warn",
-    "import/extensions": "off"
+    "import/extensions": "off",
+    "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": "function-declaration"
+      }
+    ]
   },
   "settings": {
     "import/resolver": {
